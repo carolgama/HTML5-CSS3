@@ -1,0 +1,102 @@
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf);
+}
+body{
+    margin: 0%;
+    font-size: larger;
+}
+header > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(15, 75, 15), rgba(46, 116, 46, 0.603));
+    padding: 1%;
+    box-shadow: 1px 1px 5px black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+article > h2{
+    font-family: idroid;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    padding: 2px 20px 20px 20px;
+    box-shadow: 1px 0px 8px black;
+    outline: 1px solid;
+    font-size: larger;
+    text-align: center;
+    border-radius: 0px 0px 15px 10px;
+}
+article#personalizado{
+    box-shadow: 0px 0px 9px black;
+    margin: 45px;
+}
+article > h2{
+    color: green;
+    background-color: rgba(21, 126, 35, 0.123);
+}
+main{
+    background-color: rgba(72, 252, 35, 0.267);
+    padding: 2px 17% 1% 17%;
+}
+article > img#centro{
+    display: block;
+    margin: auto;
+}
+article > h3{
+    background-color: rgb(3, 116, 3);
+    color: rgb(255, 255, 255);
+    padding: 20px 200px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: -2px -20px 2px -20px;
+}
+article > article{
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(4, 141, 100, 0.247);
+    box-shadow: none;
+}
+p > a{
+    text-decoration: none;
+    color: rgb(21, 85, 204);
+    font-weight: bold;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-color: black;   
+    padding: 10px 0 10px 0;
+    font-weight: bolder;
+}
+iframe#video{
+    background-color: rgb(5, 73, 5);
+    padding: 20px;
+}
