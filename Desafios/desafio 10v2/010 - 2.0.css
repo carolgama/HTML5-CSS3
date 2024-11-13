@@ -36,7 +36,7 @@ header > p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(191, 197, 204);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 nav{
@@ -140,6 +140,6 @@ footer{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 2px;
 }
