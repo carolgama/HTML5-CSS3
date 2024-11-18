@@ -10,6 +10,7 @@ html, body{
     min-height: 100vh;
 }
 header{
+    font-size: 3vw;
     background-color: black;
     padding: 50px;
 }
@@ -36,7 +37,7 @@ section{
     padding-bottom: 10vh;
     margin: 0px;
     font-family: Sriracha, sans-serif;
-    font-size: 25px;
+    font-size: 3vw;
     padding-left: 45px;
     line-height: 2em;
 }
@@ -58,7 +59,8 @@ section#imagem2{
     background-image: url(imagens/background002.jpg);
 }
 section.imagem > p{
-    width: 350px;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(66, 66, 66, 0.623);
 }
 
