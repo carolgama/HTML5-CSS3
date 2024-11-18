@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Pacifico&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Pacifico&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Pacifico&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    padding: 50px;
+}
+header h1{
+    color: white;
+    font-family: Passion One;
+    font-weight: bold;
+    font-size: 100px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header p{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin: 0px;
+    font-family: Sriracha, sans-serif;
+    font-size: 25px;
+    padding-left: 45px;
+    line-height: 2em;
+}
+
+section.normal{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+section#imagem1{
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(imagens/background001.jpg);
+}
+section#imagem2{
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(imagens/background002.jpg);
+}
+section.imagem > p{
+    width: 350px;
+    background-color: rgba(66, 66, 66, 0.623);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: Passion One;
+    font-size: 25px;
+}
