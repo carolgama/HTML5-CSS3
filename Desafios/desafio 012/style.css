@@ -42,17 +42,26 @@ section{
     line-height: 2em;
 }
 
+section > p{
+    padding-bottom: 1em;
+}
+
 section.normal{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.863);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.473);
 }
 section#imagem1{
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.596);
+    text-shadow: 1px 1px 0px black;
     color: white;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center right;
     background-image: url(imagens/background001.jpg);
 }
 section#imagem2{
+    text-shadow: 1px 1px 0px black;
+
     color: white;
     background-attachment: fixed;
     background-size: cover;
